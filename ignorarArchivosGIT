@@ -1,0 +1,8 @@
+Los ficheros .gitignore, .git/info/exclude y .gitignore_local nos ayudan a ignorar ciertos archivos, ya sea a través de sus extensiones o un determinado formato.
+
+# Ignora todos los ficheros acabados en .nib
+
+*.nib
+
+#Ignora todos los ficheros que empiecen por "bg-" y acaben en ".jpg"
+bg-*.jpg
